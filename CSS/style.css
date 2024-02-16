@@ -1,0 +1,165 @@
+/* Header */
+header{
+    background-image: url(../Images/images/desktop/image-hero.jpg);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .header-One{
+    display: flex;
+    justify-content:space-around ;
+  }
+  .header-One .logo{
+    font-size: 40px;
+    margin-top: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .header-One .nav ul{
+    display: flex;
+    font-size: 20px;
+  }
+  .header-One .nav ul li a{
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+  }
+  .header-Two {
+    border: 1px solid #fff;
+    width: 450px;
+    margin: 100px 0px 100px 210px;
+    padding: 40px 0px 40px 40px;
+    font-size: 50px;
+    background-color: #ffffff2b;
+  }
+  
+  /* About */
+  .about{
+    position: relative;
+  }
+  .about .img{
+    margin: 100px 0px 100px 210px;
+  }
+  .about .about-words{
+    width: 300px;
+    text-align: center;
+    padding: 60px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    background-color: #fff;
+  }
+  .about .about-words p{
+    margin-left: 12px;
+    text-align: start;
+  
+  }
+  /* CreaTions */
+  .CreaTions{
+    position: relative;
+  }
+  .CreaTions .CreaTionsOne{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 220px;
+    text-transform:uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .CreaTions .CreaTionsOne button{
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    background-color: #fff;
+    
+  }
+  .CreaTions .CreaTionsTwo{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    margin: 0px 220px;
+  
+  }
+  .CreaTions .CreaTionsTwo .CreaTionsTwo-card{
+    border: 1px solid rgba(179, 103, 103, 0.8);
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 10px 10px 18px #000000d2;
+  }
+  .CreaTions .CreaTionsTwo .CreaTionsTwo-card .TextCard{
+    position: relative;
+    top: 85%;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  /* Footear */
+  .footer{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    margin-top: 10%;
+  }
+  .footer .footerOne-logo{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .footer .footerOne-link {
+    margin: 20px 0px;
+  }
+  .footer .footerOne-link span a{
+    color: #fff;
+    text-decoration: none;
+    padding-right: 20px;
+  }
+  .footer .footerTwo{
+    padding-top: 5px;
+  }
+  .footer .footerTwo .footerTwoIcons span{
+    padding-right: 20px;
+  
+  }
+  .footer .footerTwo .footerTwoCopy{
+    padding-top: 20px;
+    color: #e7dfdf8a;
+  }
+   
+@media screen and (max-width:1024px) {
+    /* CSS FOR Max WIDTH 1024Px */
+    h1 {
+      font-size: 32px;
+    }
+  }
+  
+  @media screen and (max-width:768px) {
+    /* CSS FOR Max WIDTH 768Px */
+    h1 {
+      font-size: 28px;
+    }
+  }
+  
+  @media screen and (max-width:640px) {
+    /* CSS FOR Max WIDTH 640Px */
+    h1 {
+      font-size: 24px;
+    }
+  }
+  
+  @media screen and (max-width:480px) {
+    /* CSS FOR Max WIDTH 480Px */
+    h1 {
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width:320px) {
+    /* CSS FOR Max WIDTH 320Px */
+    h1 {
+      font-size:16px;
+    }
+  }
